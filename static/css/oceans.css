@@ -1,0 +1,21 @@
+.blog-logo {
+    max-width: 50%;
+    -webkit-filter: drop-shadow(2px 2px 20px #285c8c);
+    filter: drop-shadow(2px 2px 20px #285c8c);
+}
+
+a.btn {
+    background-color: #007cba;
+}
+
+a.fn-item:hover {
+  color: #7EBEC5;
+}
+
+a.fn-item.active {
+    color: #007cba;
+}
+
+.post-holder.odd {
+    background-color: #285c8c;
+}
