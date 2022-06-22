@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://oceansbjj.pages.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Oceans BJJ'
 theme = "hugo-scroll"
