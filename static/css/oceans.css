@@ -8,6 +8,10 @@ a.btn {
     background-color: #007cba;
 }
 
+a.btn:hover {
+    background-color: #7EBEC5;
+}
+
 a.fn-item:hover {
   color: #7EBEC5;
 }
