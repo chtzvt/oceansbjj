@@ -1,7 +1,29 @@
 .blog-logo {
-    max-width: 50%;
+    max-width: 80%;
     -webkit-filter: drop-shadow(2px 2px 20px #285c8c);
     filter: drop-shadow(2px 2px 20px #285c8c);
+}
+
+.blog-title, .blog-description {
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    text-shadow: 2px 2px #285c8c;
+}
+
+.blog-title {
+    font-size: 5rem;
+}
+
+.blog-description {
+    font-size: 3rem;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact header, #contact > section > p:nth-child(1) {
+    text-align: left;
 }
 
 a.btn {
@@ -9,11 +31,11 @@ a.btn {
 }
 
 a.btn:hover {
-    background-color: #7EBEC5;
+    background-color: #3D6C97;
 }
 
 a.fn-item:hover {
-  color: #7EBEC5;
+  color: #3D6C97;
 }
 
 a.fn-item.active {
@@ -22,4 +44,15 @@ a.fn-item.active {
 
 .post-holder.odd {
     background-color: #285c8c;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-logo {
+        max-width: 90%;
+    }
+
+    a.btn {
+        font-size: 1rem;
+        padding: 3px 6px 3px 6px;
+    }
 }

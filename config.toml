@@ -1,4 +1,7 @@
 baseURL = 'https://oceansbjj.pages.dev/'
 languageCode = 'en-us'
-title = 'Oceans BJJ'
+title = 'Oceans Brazilian Jiu Jitsu Academy'
 theme = "hugo-scroll"
+[params]
+    hidedesignbyline = true
+    copyright = "Oceans Brazilian Jitsu Academy - All Rights Reserved"
